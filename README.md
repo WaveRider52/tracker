@@ -25,3 +25,20 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+## Commit 3
+
+1. **Updated `angular.json`**:
+   - Added an **assets array** to be included in the build specifying:
+     - `favicon.ico` from the `src` directory.
+     - All files in the `assets` directory.
+
+2. **Enhanced `tsconfig.json`**:
+   - Enabled `forceConsistentCasingInFileNames` to enforce case sensitivity in file names.
+   - Set `moduleResolution` to `"node"`, ensuring Node.js-style module imports.
+   - Disabled `useDefineForClassFields` to simplify class field syntax, allowing for more concise syntax. 
+
+3. Simplify `app.component.html` by focusing on introducing the ToDo demo application:
+   - Eliminate distracting elements like external links, focusing instead on the ToDo application.
+   - Align the content with the demo app's learning objectives.
+   - Use the logo and heading to emphasize Angular's branding and set the tone for the course material.  
